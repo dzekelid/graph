@@ -3,9 +3,9 @@ swagger: "2.0"
 x-collection-name: Datadog
 x-complete: 0
 info:
-  title: DataDog API Get Graph Embed
+  title: DataDog API Get Graph Snapshot
   version: 1.0.0
-  description: Gets a list of previously created embeddable graphs.
+  description: GET graph snapshot
 basePath: api/v1/
 schemes:
 - http
@@ -32,19 +32,6 @@ paths:
       - Monitoring
       - Graph
       - Snapshot
-  graph/embed:
-    get:
-      summary: Get Graph Embed
-      description: Gets a list of previously created embeddable graphs.
-      operationId: getGraphEmbed
-      x-api-path-slug: graphembed-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - Monitoring
-      - Graph
-      - Embed
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -1,0 +1,147 @@
+{
+	"name": "Streadata.io API Gallery - Graph",
+	"description": "This is a repository of graph APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/graph.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://graph.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Junar.com",
+			"x-api-slug": "junar-com",
+			"description": "Fast, easy, and affordable way to transform data into resources that businesses, governments, NGOs, academia and citizens can use.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/827-junar-com.jpg",
+			"humanURL": "http://www.junar.com",
+			"baseURL": "https:///",
+			"tags": "Graph",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/graph/master/_listings/junar-com/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Primal",
+			"x-api-slug": "primal",
+			"description": "Primals technology is an artificial intelligence that synthesizes semantic data in real-time. Primals AI produces semantic representations as interest graphs, powering automated and personalized computing experiences.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2163-primal.jpg",
+			"humanURL": "https://about.primal.com",
+			"baseURL": "https:///",
+			"tags": "Graph",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/graph/master/_listings/primal/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Datadog",
+			"x-api-slug": "datadog",
+			"description": "See inside any stack, any app, at any scale, anywhere.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22961-datadog.jpg",
+			"humanURL": "https://www.datadoghq.com/",
+			"baseURL": "https:///api/v1/",
+			"tags": "Graph",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/graph/master/_listings/datadog/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS X-Ray",
+			"x-api-slug": "aws-xray",
+			"description": "AWS X-Ray helps developers analyze and debug production, distributed applications, such as those built using a microservices architecture. With X-Ray, you can understand how your application and its underlying services are performing to identify and troubleshoot the root cause of performance issues and errors. X-Ray provides an end-to-end view of requests as they travel through your application, and shows a map of your applications underlying components. You can use X-Ray to analyze both applications in development and in production, from simple three-tier applications to complex microservices applications consisting of thousands of services.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-xray.png",
+			"humanURL": "https://aws.amazon.com/xray/",
+			"baseURL": ":///",
+			"tags": "Graph",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/graph/master/_listings/aws-xray/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Microsoft Graph",
+			"x-api-slug": "microsoft-graph",
+			"description": "Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft cloud services through a single endpoint: https://graph.microsoft.com. Microsoft Graph simplifies queries that would otherwise be more complex. You can use Microsoft Graph to: Access data from multiple Microsoft cloud services, including Azure Active Directory, Exchange Online as part of Office 365, SharePoint, OneDrive, OneNote, and Planner. Navigate between entities and relationships. Access intelligence and insights from the Microsoft cloud (for commercial users).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png",
+			"humanURL": "https://developer.microsoft.com/en-us/graph/",
+			"baseURL": "https://graph.microsoft.com//",
+			"tags": "Graph",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/graph/master/_listings/microsoft-graph/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lykke",
+			"x-api-slug": "lykke",
+			"description": "Lykke is a movement to build one global marketplace that is a level playing field where everyone has access.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg",
+			"humanURL": "https://lykke.com",
+			"baseURL": "https:////",
+			"tags": "Graph",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/graph/master/_listings/lykke/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Blockchain Workbench",
+			"x-api-slug": "azure-blockchain-workbench",
+			"description": "Azure Blockchain Workbench helps organizations build rich, integrated multi-party blockchain applications quickly and easily. Azure Blockchain Workbench REST API provides developers and information workers a way to integrate to blockchain applications. For example, a developer can use the REST API to enable IoT devices to send data to a blockchain application. Or, an information worker can use the REST API and Power BI to create visualization of blockchain data.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-blockchain.png",
+			"humanURL": "https://docs.microsoft.com/en-us/rest/api/azure-blockchain-workbench/",
+			"baseURL": "https:////",
+			"tags": "Graph",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/graph/master/_listings/azure-blockchain-workbench/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Graph",
+	"include": [
+		{
+			"name": "Junar.com",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/graph/master/_listings/junar-com/apis.yaml"
+		},
+		{
+			"name": "Primal",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/graph/master/_listings/primal/apis.yaml"
+		},
+		{
+			"name": "Datadog",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/graph/master/_listings/datadog/apis.yaml"
+		},
+		{
+			"name": "AWS X-Ray",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/graph/master/_listings/aws-xray/apis.yaml"
+		},
+		{
+			"name": "Microsoft Graph",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/graph/master/_listings/microsoft-graph/apis.yaml"
+		},
+		{
+			"name": "Lykke",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/graph/master/_listings/lykke/apis.yaml"
+		},
+		{
+			"name": "Azure Blockchain Workbench",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/graph/master/_listings/azure-blockchain-workbench/apis.yaml"
+		}
+	]
+}

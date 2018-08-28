@@ -3,9 +3,9 @@ swagger: "2.0"
 x-collection-name: Datadog
 x-complete: 0
 info:
-  title: DataDog API Get Graph Embed
+  title: DataDog API Get Graph Embed Embed  Enable
   version: 1.0.0
-  description: Gets a list of previously created embeddable graphs.
+  description: Enable a specified embed.
 basePath: api/v1/
 schemes:
 - http
@@ -45,6 +45,48 @@ paths:
       - Monitoring
       - Graph
       - Embed
+    post:
+      summary: Add Graph Embed
+      description: Creates a new embeddable graph.
+      operationId: postGraphEmbed
+      x-api-path-slug: graphembed-post
+      responses:
+        200:
+          description: OK
+      tags:
+      - Monitoring
+      - Graph
+      - Embed
+  graph/embed/:embed_id:
+    get:
+      summary: Get Graph Embed Embed
+      description: Get the HTML fragment for a previously generated embed with embed_id.
+      operationId: getGraphEmbedEmbed
+      x-api-path-slug: graphembedembed-id-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Monitoring
+      - Graph
+      - Embed
+      - Embed
+  graph/embed/:embed_id/enable:
+    get:
+      summary: Get Graph Embed Embed  Enable
+      description: Enable a specified embed.
+      operationId: getGraphEmbedEmbedEnable
+      x-api-path-slug: graphembedembed-idenable-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Monitoring
+      - Graph
+      - Embed
+      - Embed
+      - ""
+      - Enable
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
